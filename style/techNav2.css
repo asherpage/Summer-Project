@@ -2,7 +2,7 @@
   font-family: nav;
   src: url(../myFonts/BarlowSemiCondensed-light.ttf);
 }
-.nav {
+.nav1 {
   background-color: white;
   cursor: pointer;
   width: 100%;
@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.prev {
+.prev5 {
   background-color: white;
   color: #6B2DD3;
   font-family: nav;
@@ -23,16 +23,16 @@
   margin: 3vw 2vw 0 0;
   border: 2px solid #6B2DD3;
   border-radius: 50px;
-  font-size: 22px;
+  font-size: 1vw;
   transition: 0.5s;
 }
-.prev:hover {
+.prev5:hover {
   background-color: #6B2DD3;
   color: white;
   transition: 0.5s;
 }
 
-.next {
+.next5 {
   background-color: white;
   color: #6B2DD3;
   font-family: nav;
@@ -44,10 +44,10 @@
   margin: 3vw 10vw 0 0;
   border: 2px solid #6B2DD3;
   border-radius: 50px;
-  font-size: 22px;
+  font-size: 1vw;
   transition: 0.5s;
 }
-.next:hover {
+.next5:hover {
   background-color: #6B2DD3;
   color: white;
   transition: 0.5s;
@@ -55,7 +55,7 @@
 
 .logo {
   float: left;
-  font-size: 25px;
+  font-size: 2vw;
   color: #6B2DD3;
   font-weight: bold;
   text-decoration: none;

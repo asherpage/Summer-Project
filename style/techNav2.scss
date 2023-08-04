@@ -14,7 +14,7 @@ $tertiary: #6B2DD3;
     font-family: nav;
     src: url(../myFonts/BarlowSemiCondensed-light.ttf);
 }
-.nav{
+.nav1{
     background-color: $primary;
     cursor: pointer;
     width: 100%;
@@ -22,7 +22,7 @@ $tertiary: #6B2DD3;
     height: 9vw;
     text-align: center;
     }
-    .prev{
+    .prev5{
         background-color: $primary;
         color: $tertiary;
         font-family: nav;
@@ -34,7 +34,7 @@ $tertiary: #6B2DD3;
         margin: 3vw 2vw 0 0;
         border: 2px solid $tertiary;
         border-radius: 50px;
-        font-size: 22px;
+        font-size: 1vw;
         transition: .5s;
         &:hover{
             background-color: $tertiary;
@@ -42,7 +42,7 @@ $tertiary: #6B2DD3;
             transition: .5s;
         }
     }
-    .next{
+    .next5{
         background-color: $primary;
         color: $tertiary;
         font-family: nav;
@@ -54,7 +54,7 @@ $tertiary: #6B2DD3;
         margin: 3vw 10vw 0 0;
         border: 2px solid $tertiary;
         border-radius: 50px;
-        font-size: 22px;
+        font-size: 1vw;
         transition: .5s;
         &:hover{
             background-color: $tertiary;
@@ -64,7 +64,7 @@ $tertiary: #6B2DD3;
     }
     .logo {
         float: left;
-        font-size: 25px;
+        font-size: 2vw;
         color: $tertiary;
         font-weight: bold;
         text-decoration: none;

@@ -2,7 +2,7 @@
   font-family: nav;
   src: url(../myFonts/BarlowSemiCondensed-light.ttf);
 }
-.nav {
+.nav1 {
   background-color: white;
   cursor: pointer;
   width: 100%;
@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.prev {
+.prev5 {
   background-color: white;
   color: #6B2DD3;
   font-family: nav;
@@ -23,16 +23,16 @@
   margin: 3vw 2vw 0 0;
   border: 2px solid #6B2DD3;
   border-radius: 50px;
-  font-size: 22px;
+  font-size: 1vw;
   transition: 0.5s;
 }
-.prev:hover {
+.prev5:hover {
   background-color: #6B2DD3;
   color: white;
   transition: 0.5s;
 }
 
-.next {
+.next5 {
   background-color: white;
   color: #6B2DD3;
   font-family: nav;
@@ -44,10 +44,10 @@
   margin: 3vw 10vw 0 0;
   border: 2px solid #6B2DD3;
   border-radius: 50px;
-  font-size: 22px;
+  font-size: 1vw;
   transition: 0.5s;
 }
-.next:hover {
+.next5:hover {
   background-color: #6B2DD3;
   color: white;
   transition: 0.5s;
@@ -55,7 +55,7 @@
 
 .logo {
   float: left;
-  font-size: 25px;
+  font-size: 2vw;
   color: #6B2DD3;
   font-weight: bold;
   text-decoration: none;
@@ -119,7 +119,7 @@ body * {
   width: 15vw;
 }
 
-.title {
+.titleski {
   text-align: center;
   width: 100%;
   margin-bottom: 5vw;
@@ -142,37 +142,15 @@ img {
   height: 25vw;
   position: relative;
   margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.slideshow-container:hover {
+  box-shadow: 0px 0px 5px #6B2DD3;
+  transition: 0.5s;
 }
 
 /* Next & previous buttons */
-.pre, .nex {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-/* Position the "next button" to the right */
-.nex {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.pre:hover, .nex:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -216,8 +194,18 @@ img {
 }
 
 .center {
-  width: 30vw;
+  width: 50vw;
+  font-family: main;
   text-align: center;
+  margin: auto;
+}
+
+.wider {
+  width: 100%;
+  font-size: 1.5vw;
+  font-family: main;
+  display: flex;
+  justify-items: center;
 }
 
 @keyframes fade {

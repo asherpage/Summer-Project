@@ -52,7 +52,7 @@ body{
         width: 15vw;
     }
 }
-.title{
+.titleski{
     text-align: center;
     width: 100%;
     margin-bottom: 5vw;
@@ -69,34 +69,17 @@ img {vertical-align: middle;}
   height: 25vw;
   position: relative;
   margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  &:hover{
+    box-shadow: 0px 0px 5px $tertiary;
+    transition: .5s;
+  }
 }
+
 
 /* Next & previous buttons */
-.pre, .nex {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.nex {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.pre:hover, .nex:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+// 
 
 /* Caption text */
 .text {
@@ -140,8 +123,18 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
 }
 .center{
-    width: 30vw;
+    width: 50vw;
+    font-family: main;
     text-align: center;
+    margin: auto;
+}
+.wider{
+  width: 100%;
+  font-size: 1.5vw;
+  font-family: main;
+  display: flex;
+  justify-items: center;
+
 }
 @keyframes fade {
   from {opacity: .4} 
