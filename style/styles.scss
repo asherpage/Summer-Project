@@ -149,6 +149,7 @@ img {vertical-align: middle;}
 .parent {
   margin: 1rem;
   text-align: center;
+  margin-bottom: 10vw;
 }
 .child1 {
   display: inline-block;
@@ -195,26 +196,7 @@ img {vertical-align: middle;}
   margin-left: 5vw;
   
 }
-.footie{
-  background-color: #110527;
-  margin-top: 10vw;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  height: 8vw;
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  p{
-    padding-top: 2vw;
-    font-style: italic;
-    font-weight: 200;
-    font-size: 1vw;
-    a{
-      font-size: .7vw;
-      color: white;
-    }
-  }
-}
+
 .night{
   color: #333333;
   position: fixed;
@@ -243,4 +225,112 @@ img {vertical-align: middle;}
   &:hover{
     color: rgb(117, 117, 117);
   }
+}
+@media only screen and (max-width: 500px) {
+  .child1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5vw;
+    
+  }
+  .child2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5vw;
+    .desc{
+      font-family: main;
+      font-size: 1.5vw;
+  
+    }
+    p{
+      font-size: 3vw;
+      font-weight: bold;
+    }
+  }
+  .sliduh{
+    width: 25vw;
+    height: 25vw;
+  }
+  
+  .child3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5vw;
+    .desc{
+      font-family: main;
+      font-size: 1.5vw;
+  
+    }
+    p{
+      font-size: 3vw;
+      font-weight: bold;
+    }
+  }
+  .child4 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5vw;
+    
+  }
+  .titleski{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5vw;
+    font-family: main;
+    font-size: 5vw;
+}
+}
+@media only screen and (max-width: 380px) {
+  .child1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5vw;
+    
+  }
+  .child2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5vw;
+    .desc{
+      font-family: main;
+      font-size: 2vw;
+  
+    }
+    p{
+      font-size: 3vw;
+      font-weight: bold;
+    }
+  }
+  .sliduh{
+    width: 25vw;
+    height: 25vw;
+  }
+  
+  .child3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5vw;
+    .desc{
+      font-family: main;
+      font-size: 2vw;
+  
+    }
+    p{
+      font-size: 3vw;
+      font-weight: bold;
+    }
+  }
+  .child4 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5vw;
+    
+  }
+  .titleski{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5vw;
+    font-family: main;
+    font-size: 5vw;
+}
 }

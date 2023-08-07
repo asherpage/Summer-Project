@@ -67,4 +67,135 @@
   background-position: center;
   background-size: cover;
   border: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .nav1 {
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    top: 0;
+    height: 9vw;
+    text-align: center;
+  }
+  .prev5 {
+    background-color: transparent;
+    color: #6B2DD3;
+    font-family: nav;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    width: 12vw;
+    height: 5vw;
+    margin: 3vw 2vw 0 0;
+    border: 1px solid #6B2DD3;
+    border-radius: 50px;
+    font-size: 3vw;
+    transition: 0.5s;
+  }
+  .prev5:hover {
+    background-color: #6B2DD3;
+    color: white;
+    transition: 0.5s;
+  }
+  .next5 {
+    background-color: transparent;
+    color: #6B2DD3;
+    font-family: nav;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    width: 12vw;
+    height: 5vw;
+    margin: 3vw 10vw 0 0;
+    border: 1px solid #6B2DD3;
+    border-radius: 50px;
+    font-size: 3vw;
+    transition: 0.5s;
+  }
+  .next5:hover {
+    background-color: #6B2DD3;
+    color: white;
+    transition: 0.5s;
+  }
+  .logo {
+    float: left;
+    font-size: 3vw;
+    color: #6B2DD3;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: nav;
+    width: 20vw;
+    height: 6vw;
+    margin: 3vw 0 0 8vw;
+    background-position: center;
+    background-size: cover;
+    border: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .nav1 {
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    top: 0;
+    height: 9vw;
+    text-align: center;
+  }
+  .prev5 {
+    background-color: transparent;
+    color: #6B2DD3;
+    font-family: nav;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    width: 12vw;
+    height: 5vw;
+    margin: 3vw 2vw 0 0;
+    border: 1px solid #6B2DD3;
+    border-radius: 50px;
+    font-size: 2vw;
+    transition: 0.5s;
+  }
+  .prev5:hover {
+    background-color: #6B2DD3;
+    color: white;
+    transition: 0.5s;
+  }
+  .next5 {
+    background-color: transparent;
+    color: #6B2DD3;
+    font-family: nav;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    width: 12vw;
+    height: 5vw;
+    margin: 3vw 10vw 0 0;
+    border: 1px solid #6B2DD3;
+    border-radius: 50px;
+    font-size: 2vw;
+    transition: 0.5s;
+  }
+  .next5:hover {
+    background-color: #6B2DD3;
+    color: white;
+    transition: 0.5s;
+  }
+  .logo {
+    float: left;
+    font-size: 3vw;
+    color: #6B2DD3;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: nav;
+    width: 20vw;
+    height: 6vw;
+    margin: 3vw 0 0 8vw;
+    background-position: center;
+    background-size: cover;
+    border: none;
+  }
 }/*# sourceMappingURL=techNav2.css.map */
