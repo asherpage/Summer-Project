@@ -28,7 +28,7 @@
 }
 .prev5:hover {
   background-color: #6B2DD3;
-  color: transparent;
+  color: white;
   transition: 0.5s;
 }
 
@@ -49,7 +49,7 @@
 }
 .next5:hover {
   background-color: #6B2DD3;
-  color: transparent;
+  color: white;
   transition: 0.5s;
 }
 
@@ -297,8 +297,8 @@ img {
 
 .night {
   color: #333333;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  bottom: 0;
   right: 0;
   width: 3vw;
   height: 3vw;

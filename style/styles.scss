@@ -1,4 +1,4 @@
-@import "./techNav2.scss";
+@import "techNav2.scss";
 $background1: #030303;
 $primary: white;
 $secondary: rgb(61, 61, 61);
@@ -217,8 +217,8 @@ img {vertical-align: middle;}
 }
 .night{
   color: #333333;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  bottom: 0;
   right: 0;
   width: 3vw;
   height: 3vw;
