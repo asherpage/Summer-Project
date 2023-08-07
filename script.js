@@ -39,3 +39,9 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+function myFunction() {
+  var element = document.body;
+  var moon = document.getElementById("dark");
+  element.classList.toggle("dark-mode");
+  moon.classList.toggle("moon-change");
+}

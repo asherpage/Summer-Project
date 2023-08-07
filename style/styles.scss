@@ -224,7 +224,6 @@ img {vertical-align: middle;}
   height: 3vw;
   margin-top: .5vw;
   margin-right: .5vw;
-  border: 1px solid red;
   &:hover{
     color: #030303;
     transition: .3s;
@@ -232,5 +231,16 @@ img {vertical-align: middle;}
   }
   span{
     font-size: 3vw;
+  }
+}
+
+.dark-mode {
+  background-color: rgb(8, 8, 8);
+  color: white;
+}
+.moon-change{
+  color: rgb(202, 202, 202);
+  &:hover{
+    color: rgb(117, 117, 117);
   }
 }
